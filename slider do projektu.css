@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(36, 58, 105);
+}
+h5{
+
+  font-size: 3rem;
+}
+
+/* Ustawienie tekstu na sliderze */
+.slider-text{
+  margin: 10% 0;
+}
+
+/*Aby slider był na cały ekran */
+.d-block{
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Sciezki do slidera */
+.pic-0{
+  background-image: url("https://www.eluniversal.com.mx/sites/default/files/2019/12/02/2019-mazda-mx-5-miata-30th-anniversary-edition-1.jpg");
+}
+.pic-1{
+  background-image: url("https://pl.cdn.mazda.media/b4dacfaad69944649b4df94adf43368f/01205747353f4869bd27f4b41a1f252f.jpg?491486");
+}
+.pic-2{
+  background-image: url("https://i.imged.pl/kompletny-skladany-dach-mazda-mx5-2016r-cabrio-32620716.jpg");
+}
+
+.prev-button{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 80vw;
+  top: 100px;
+}
+.next-button{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 85vw;
+  top: 100px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  transform: scale(2);
+}
+
+/*
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Audiowide', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lora';

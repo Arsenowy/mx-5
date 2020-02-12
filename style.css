@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h5 {
+  padding: 25px;
+  font-size: 3rem;
+  border-bottom: 5px solid white;
+}
+
+/* Ustawienie tekstu na sliderze */
+.slider-text {
+  position: absolute;
+  bottom: 10%;
+  z-index: 1;
+}
+
+.text {
+  position: relative;
+  top: 120vh;
+}
+
+/*Aby slider był na cały ekran */
+.d-block {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(90%);
+  filter: contrast(110%);
+  background-attachment: fixed;
+}
+
+/* Sciezki do slidera */
+.pic-0 {
+  background-image: url('https://www.eluniversal.com.mx/sites/default/files/2019/12/02/2019-mazda-mx-5-miata-30th-anniversary-edition-1.jpg');
+}
+.pic-1 {
+  background-image: url('https://pl.cdn.mazda.media/b4dacfaad69944649b4df94adf43368f/01205747353f4869bd27f4b41a1f252f.jpg?491486');
+}
+.pic-2 {
+  background-image: url('https://i.imged.pl/kompletny-skladany-dach-mazda-mx5-2016r-cabrio-32620716.jpg');
+}
+.guziki {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.button {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  transform: scale(2);
+}
+
+.kafelki {
+  position: relative;
+}
+
+.kafelki-text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 10%;
+}
+
+img {
+  width: 100%;
+}
+
+.row1 {
+  position: relative;
+  top: -100px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+.col-lg-6 {
+  padding: 0;
+}
+.gradient2 {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.664));
+  position: absolute;
+  bottom: 0vh;
+}
+
+.footer {
+  background-color: white;
+  height: 50vh;
+  width: 100%;
+}
+a {
+  position: relative;
+  z-index: 5;
+}
